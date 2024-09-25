@@ -1,0 +1,87 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: auto 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.description {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.description .info {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.description .info h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.description .info span {
+    display: block;
+}
+
+.description .info p {
+    font-size: 21px;
+}
+
+.form {
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+}
+
+.form .input-form .span-form {
+    margin-bottom: 15px;
+}
+
+.form .input-form .span-form input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid;
+    outline: none;
+}
+
+.form .input-form .span-form span, 
+.form .textarea-form span {
+    display: none;
+    color: #ff0000;
+    font-size: 11px;
+}
+
+.form .textarea-form textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form .textarea-form textarea::placeholder {
+    padding-left: 10px; 
+    padding-top: 5px;
+}
+
+.form .btn {
+    padding:15px;
+    border-radius: 5px;
+    background-color: #008000;
+    width: 100%;
+    border: none;
+    margin-top: 15px;
+    color: #fff;
+    cursor: pointer;
+}
